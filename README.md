@@ -1,9 +1,9 @@
 # JavaScript Design Patterns Cheatsheet and Examples.
+  - Use [Node.js](http://nodejs.org) to run examples locally.
 
 ### List of JS Patterns.
   - Each JS Pattern has brief explanation and example.
   - Examples are meant to be seen consecutively.
-  - Use [Node.js](http://nodejs.org) to run examples locally.
 
   1. Creational Pattern.
   2. Constructor Pattern.
