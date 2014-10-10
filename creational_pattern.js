@@ -4,7 +4,9 @@
 
 // Creation of Object via object literal.
 var creationalObject = {}
+
 // Assigning a key to Object
 creationalObject.someKey = console.log('Creational pattern');
+
 // Calling the key
 creationalObject.sameKey;
