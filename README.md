@@ -8,6 +8,7 @@
   2. Singleton Pattern. (Used for namespacing) 
   3. Constructor Pattern.
   4. Module Pattern.(Also brief explanation of public vs private vars/functions, closure)
+  5. Observer Pattern.
 
 ----------------------------------------------------------------------------------------
 
