@@ -3,6 +3,8 @@
 //   - Mainly used as MV (model-view).
 //     * Model acts as the publisher. 
 //     * View acts as the subscriber.
+//   - Advantage of Observer is seperation of concerns. 
+//     * Model is changeable and View needs to change what is outputted depdendent on the Model.
 
 //Models (Book Object and BookCollection Object )
 function Book(name, isbn) {
