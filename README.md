@@ -9,6 +9,7 @@
   3. Constructor Pattern.
   4. Module Pattern. (Also brief explanation of public vs private vars/functions, closure)
   5. Observer Pattern (Aka PubSub). Example pulled from [Stack Overflow](http://stackoverflow.com/questions/13512949/why-would-one-use-the-publish-subscribe-pattern-in-js-jquery)
+  (Coming Soon.) 6. MVC vs. MVP. 
 
 ----------------------------------------------------------------------------------------
 
