@@ -1,6 +1,6 @@
 // Observer Pattern is also known as PubSub(Publisher/Subscribe Pattern.)
 //   - Allows an object(subscriber) to watch a seperate object(publisher), forming a listen and broadcast relationship.
-//   - Mainly used as MV (model-view).
+//   - Mainly used as MV (model-view). Checkout JS framework Backbone.js which primarily uses MV.
 //     * Model acts as the publisher. 
 //     * View acts as the subscriber.
 //   - Advantage of Observer is seperation of concerns. 
