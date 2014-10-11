@@ -7,8 +7,8 @@
   1. Creational Pattern.
   2. Singleton Pattern. (Used for namespacing) 
   3. Constructor Pattern.
-  4. Module Pattern.(Also brief explanation of public vs private vars/functions, closure)
-  5. Observer Pattern.
+  4. Module Pattern. (Also brief explanation of public vs private vars/functions, closure)
+  5. Observer Pattern (Aka PubSub). Not a js file, but has link to a very good example and explanation.
 
 ----------------------------------------------------------------------------------------
 
