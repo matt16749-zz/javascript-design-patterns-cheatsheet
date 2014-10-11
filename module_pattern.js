@@ -9,7 +9,7 @@ var Module = function(){
   // Line 10 is a PRIVATE variable.
   var counter = 0;  
 
-  // Object Literal on lines 15-26 is being returned inside the function Module.
+  // Object Literal on lines 14-25 is being returned inside the function Module.
   // w/o the object literal you cannot call both incrementCounter and resetCounter, you can only call one (whichever is explicitly returned by Module.)
   return {
     // incrementCounter is a closure. Also a PUBLIC function. 

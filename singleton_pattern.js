@@ -9,3 +9,4 @@ var Singleton = {
 
 Singleton.key1;
 Singleton.key2;
+

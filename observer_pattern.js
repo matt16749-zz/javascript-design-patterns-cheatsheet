@@ -17,10 +17,9 @@ function BookCollection(books) {
 }
 
 BookCollection.prototype.addBook = function (book) {
+    // add book to books array.
     this.books.push(book);
-    // Model publishes the parameter book on channel 'book-added'. 
-    // It will change the actual books parameter array.
-    // View will have a listener on channel 'book-added' to remove and update the corresponding view based upon the actuall books parameter array
+    // Model publishes the parameter book on channel 'book-added'. Checkout line 56.
     $.publish('book-added', book);
     return book;
 }
@@ -54,6 +53,7 @@ var BookListView = (function () {
          $.subscribe('book-removed', function (book) {
              removeBook(book);
          });
+         // View will have a listener on channel 'book-added' to remove and update the corresponding view based upon the actuall books parameter array
          $.subscribe('book-added', function (book) {
              addBook(book);
          });
