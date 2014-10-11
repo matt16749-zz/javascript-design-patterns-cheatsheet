@@ -18,6 +18,7 @@ function BookCollection(books) {
 
 BookCollection.prototype.addBook = function (book) {
     this.books.push(book);
+    // Model publishes the parameter book on channel 'book-added'. View will have a listener on channel 'book-added'
     $.publish('book-added', book);
     return book;
 }
@@ -51,7 +52,7 @@ var BookListView = (function () {
          $.subscribe('book-removed', function (book) {
              removeBook(book);
          });
-         $.subscribe('book-aded', function (book) {
+         $.subscribe('book-added', function (book) {
              addBook(book);
          });
       }
