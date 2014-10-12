@@ -1,7 +1,6 @@
 // MVC and MVP is made up of three components.
   // Model: Manages data of an application. Does not care about presentation or what data to pass on to view.
   // When a model is updated, it will typically notify its observers (usually views)
-  // The actual task of updating the model belongs to the controller
 var Photo = Backbone.Model.extend({
   // defaults and initialize are keys being added to the Model object literal.
   defaults: {
